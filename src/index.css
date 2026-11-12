@@ -9,3 +9,15 @@
 .tech-feature{display:grid;grid-template-columns:1.15fr .85fr;gap:6vw;align-items:center;margin:80px 0 50px}.tech-media{height:520px;position:relative;overflow:hidden;background:#171717}.tech-media>img{width:100%;height:115%;object-fit:cover;object-position:center}.tech-media:after{content:'';position:absolute;inset:0;background:linear-gradient(0deg,#111b 0%,transparent 45%)}.tech-media>span{position:absolute;z-index:2;left:24px;bottom:24px;padding:13px 16px;color:white;font-size:8px;letter-spacing:.15em}.tech-copy h3{font:500 clamp(2.4rem,4vw,4.6rem)/1.05 Playfair Display;margin:18px 0 26px}.tech-copy h3 em{font-family:Cormorant Garamond;font-weight:400;color:#c6a664}.tech-copy>p:not(.kicker){color:#aaa;line-height:1.8;max-width:480px}.tech-points{margin-top:32px;border-top:1px solid #ffffff20}.tech-points span{display:block;border-bottom:1px solid #ffffff20;padding:14px 0;color:#d5d5d5;font-size:9px;letter-spacing:.14em}.tech-points span:before{content:'+';color:#c6a664;margin-right:14px}.offers{display:grid;grid-template-columns:.7fr 1.3fr;gap:8vw;align-items:center}.offers-intro>p:not(.kicker){color:#666057;line-height:1.8;max-width:440px}.offer-poster{position:relative;width:100%;max-height:780px;overflow:hidden;border:0;padding:0;background:#111;box-shadow:0 25px 70px #3b2f1d2b}.offer-poster>img{width:100%;height:100%;max-height:780px;object-fit:contain;display:block}
 @media(max-width:900px){.tech-feature,.offers{grid-template-columns:1fr}.tech-media{height:460px}.offers{gap:45px}.offer-poster>img{max-height:680px}}
 @media(max-width:560px){.tech-media{height:360px}.tech-media>span{left:14px;right:14px;bottom:14px}.offers-intro{margin-bottom:10px}}
+
+/* --- NEW RULES FOR SINGLE DOCTOR LAYOUT --- */
+.team-grid.single-artisan {
+  grid-template-columns: minmax(0, 680px);
+  justify-content: center;
+}
+.team-grid.single-artisan article {
+  width: 100%;
+}
+.team-grid.single-artisan .featured {
+  transform: none;
+}
